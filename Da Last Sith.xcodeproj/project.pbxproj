@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C2CF4071FE174DB0053C938 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2CF4061FE174DB0053C938 /* AppDelegate.swift */; };
+		6C2CF4091FE174DB0053C938 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2CF4081FE174DB0053C938 /* ViewController.swift */; };
+		6C2CF40C1FE174DB0053C938 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C2CF40A1FE174DB0053C938 /* Main.storyboard */; };
+		6C2CF40E1FE174DB0053C938 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C2CF40D1FE174DB0053C938 /* Assets.xcassets */; };
+		6C2CF4111FE174DB0053C938 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C2CF40F1FE174DB0053C938 /* LaunchScreen.storyboard */; };
+		6C2CF41C1FE174DC0053C938 /* Da_Last_SithTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2CF41B1FE174DC0053C938 /* Da_Last_SithTests.swift */; };
+		6C2CF4271FE174DC0053C938 /* Da_Last_SithUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2CF4261FE174DC0053C938 /* Da_Last_SithUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6C2CF4181FE174DC0053C938 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C2CF3FB1FE174DB0053C938 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C2CF4021FE174DB0053C938;
+			remoteInfo = "Da Last Sith";
+		};
+		6C2CF4231FE174DC0053C938 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C2CF3FB1FE174DB0053C938 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C2CF4021FE174DB0053C938;
+			remoteInfo = "Da Last Sith";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6C2CF4031FE174DB0053C938 /* Da Last Sith.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Da Last Sith.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C2CF4061FE174DB0053C938 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6C2CF4081FE174DB0053C938 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6C2CF40B1FE174DB0053C938 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6C2CF40D1FE174DB0053C938 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C2CF4101FE174DB0053C938 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6C2CF4121FE174DB0053C938 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C2CF4171FE174DC0053C938 /* Da Last SithTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Da Last SithTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C2CF41B1FE174DC0053C938 /* Da_Last_SithTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Da_Last_SithTests.swift; sourceTree = "<group>"; };
+		6C2CF41D1FE174DC0053C938 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C2CF4221FE174DC0053C938 /* Da Last SithUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Da Last SithUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C2CF4261FE174DC0053C938 /* Da_Last_SithUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Da_Last_SithUITests.swift; sourceTree = "<group>"; };
+		6C2CF4281FE174DC0053C938 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C2CF4001FE174DB0053C938 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C2CF4141FE174DC0053C938 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C2CF41F1FE174DC0053C938 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C2CF3FA1FE174DB0053C938 = {
+			isa = PBXGroup;
+			children = (
+				6C2CF4051FE174DB0053C938 /* Da Last Sith */,
+				6C2CF41A1FE174DC0053C938 /* Da Last SithTests */,
+				6C2CF4251FE174DC0053C938 /* Da Last SithUITests */,
+				6C2CF4041FE174DB0053C938 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6C2CF4041FE174DB0053C938 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C2CF4031FE174DB0053C938 /* Da Last Sith.app */,
+				6C2CF4171FE174DC0053C938 /* Da Last SithTests.xctest */,
+				6C2CF4221FE174DC0053C938 /* Da Last SithUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C2CF4051FE174DB0053C938 /* Da Last Sith */ = {
+			isa = PBXGroup;
+			children = (
+				6C2CF4061FE174DB0053C938 /* AppDelegate.swift */,
+				6C2CF4081FE174DB0053C938 /* ViewController.swift */,
+				6C2CF40A1FE174DB0053C938 /* Main.storyboard */,
+				6C2CF40D1FE174DB0053C938 /* Assets.xcassets */,
+				6C2CF40F1FE174DB0053C938 /* LaunchScreen.storyboard */,
+				6C2CF4121FE174DB0053C938 /* Info.plist */,
+			);
+			path = "Da Last Sith";
+			sourceTree = "<group>";
+		};
+		6C2CF41A1FE174DC0053C938 /* Da Last SithTests */ = {
+			isa = PBXGroup;
+			children = (
+				6C2CF41B1FE174DC0053C938 /* Da_Last_SithTests.swift */,
+				6C2CF41D1FE174DC0053C938 /* Info.plist */,
+			);
+			path = "Da Last SithTests";
+			sourceTree = "<group>";
+		};
+		6C2CF4251FE174DC0053C938 /* Da Last SithUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6C2CF4261FE174DC0053C938 /* Da_Last_SithUITests.swift */,
+				6C2CF4281FE174DC0053C938 /* Info.plist */,
+			);
+			path = "Da Last SithUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C2CF4021FE174DB0053C938 /* Da Last Sith */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C2CF42B1FE174DC0053C938 /* Build configuration list for PBXNativeTarget "Da Last Sith" */;
+			buildPhases = (
+				6C2CF3FF1FE174DB0053C938 /* Sources */,
+				6C2CF4001FE174DB0053C938 /* Frameworks */,
+				6C2CF4011FE174DB0053C938 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Da Last Sith";
+			productName = "Da Last Sith";
+			productReference = 6C2CF4031FE174DB0053C938 /* Da Last Sith.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6C2CF4161FE174DC0053C938 /* Da Last SithTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C2CF42E1FE174DC0053C938 /* Build configuration list for PBXNativeTarget "Da Last SithTests" */;
+			buildPhases = (
+				6C2CF4131FE174DC0053C938 /* Sources */,
+				6C2CF4141FE174DC0053C938 /* Frameworks */,
+				6C2CF4151FE174DC0053C938 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C2CF4191FE174DC0053C938 /* PBXTargetDependency */,
+			);
+			name = "Da Last SithTests";
+			productName = "Da Last SithTests";
+			productReference = 6C2CF4171FE174DC0053C938 /* Da Last SithTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6C2CF4211FE174DC0053C938 /* Da Last SithUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C2CF4311FE174DC0053C938 /* Build configuration list for PBXNativeTarget "Da Last SithUITests" */;
+			buildPhases = (
+				6C2CF41E1FE174DC0053C938 /* Sources */,
+				6C2CF41F1FE174DC0053C938 /* Frameworks */,
+				6C2CF4201FE174DC0053C938 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C2CF4241FE174DC0053C938 /* PBXTargetDependency */,
+			);
+			name = "Da Last SithUITests";
+			productName = "Da Last SithUITests";
+			productReference = 6C2CF4221FE174DC0053C938 /* Da Last SithUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C2CF3FB1FE174DB0053C938 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Tyler Cliber";
+				TargetAttributes = {
+					6C2CF4021FE174DB0053C938 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					6C2CF4161FE174DC0053C938 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6C2CF4021FE174DB0053C938;
+					};
+					6C2CF4211FE174DC0053C938 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6C2CF4021FE174DB0053C938;
+					};
+				};
+			};
+			buildConfigurationList = 6C2CF3FE1FE174DB0053C938 /* Build configuration list for PBXProject "Da Last Sith" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6C2CF3FA1FE174DB0053C938;
+			productRefGroup = 6C2CF4041FE174DB0053C938 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C2CF4021FE174DB0053C938 /* Da Last Sith */,
+				6C2CF4161FE174DC0053C938 /* Da Last SithTests */,
+				6C2CF4211FE174DC0053C938 /* Da Last SithUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C2CF4011FE174DB0053C938 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C2CF4111FE174DB0053C938 /* LaunchScreen.storyboard in Resources */,
+				6C2CF40E1FE174DB0053C938 /* Assets.xcassets in Resources */,
+				6C2CF40C1FE174DB0053C938 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C2CF4151FE174DC0053C938 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C2CF4201FE174DC0053C938 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C2CF3FF1FE174DB0053C938 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C2CF4091FE174DB0053C938 /* ViewController.swift in Sources */,
+				6C2CF4071FE174DB0053C938 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C2CF4131FE174DC0053C938 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C2CF41C1FE174DC0053C938 /* Da_Last_SithTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C2CF41E1FE174DC0053C938 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C2CF4271FE174DC0053C938 /* Da_Last_SithUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6C2CF4191FE174DC0053C938 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C2CF4021FE174DB0053C938 /* Da Last Sith */;
+			targetProxy = 6C2CF4181FE174DC0053C938 /* PBXContainerItemProxy */;
+		};
+		6C2CF4241FE174DC0053C938 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C2CF4021FE174DB0053C938 /* Da Last Sith */;
+			targetProxy = 6C2CF4231FE174DC0053C938 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6C2CF40A1FE174DB0053C938 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C2CF40B1FE174DB0053C938 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6C2CF40F1FE174DB0053C938 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C2CF4101FE174DB0053C938 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6C2CF4291FE174DC0053C938 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6C2CF42A1FE174DC0053C938 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C2CF42C1FE174DC0053C938 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Da Last Sith/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Legitness.Da-Last-Sith";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6C2CF42D1FE174DC0053C938 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Da Last Sith/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Legitness.Da-Last-Sith";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6C2CF42F1FE174DC0053C938 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Da Last SithTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Legitness.Da-Last-SithTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Da Last Sith.app/Da Last Sith";
+			};
+			name = Debug;
+		};
+		6C2CF4301FE174DC0053C938 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Da Last SithTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Legitness.Da-Last-SithTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Da Last Sith.app/Da Last Sith";
+			};
+			name = Release;
+		};
+		6C2CF4321FE174DC0053C938 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Da Last SithUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Legitness.Da-Last-SithUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Da Last Sith";
+			};
+			name = Debug;
+		};
+		6C2CF4331FE174DC0053C938 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Da Last SithUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Legitness.Da-Last-SithUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Da Last Sith";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C2CF3FE1FE174DB0053C938 /* Build configuration list for PBXProject "Da Last Sith" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C2CF4291FE174DC0053C938 /* Debug */,
+				6C2CF42A1FE174DC0053C938 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C2CF42B1FE174DC0053C938 /* Build configuration list for PBXNativeTarget "Da Last Sith" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C2CF42C1FE174DC0053C938 /* Debug */,
+				6C2CF42D1FE174DC0053C938 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C2CF42E1FE174DC0053C938 /* Build configuration list for PBXNativeTarget "Da Last SithTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C2CF42F1FE174DC0053C938 /* Debug */,
+				6C2CF4301FE174DC0053C938 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C2CF4311FE174DC0053C938 /* Build configuration list for PBXNativeTarget "Da Last SithUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C2CF4321FE174DC0053C938 /* Debug */,
+				6C2CF4331FE174DC0053C938 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C2CF3FB1FE174DB0053C938 /* Project object */;
+}
